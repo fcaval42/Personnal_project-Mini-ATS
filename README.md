@@ -24,6 +24,7 @@ For now, the application runs from the command line, but I would like to create 
  ==== Mandatory features (MVP) ====
  
 -- Candidate management --
+
 Each applicant must include:
 
 - Unique ID
