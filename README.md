@@ -34,12 +34,5 @@ Each candidate must include:
   -Status
   -HR notes
 
-Possible statuses:
-  -Received
-  -Pre-qualified
-  -Interviewed
-  -Rejected
-  -Accepted
-
 
 project started on February 14, 2026
