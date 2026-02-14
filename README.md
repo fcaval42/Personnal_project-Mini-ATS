@@ -24,15 +24,14 @@ For now, the application runs from the command line, but I would like to create 
  ==== Mandatory features (MVP) ====
  
 -- Candidate management --
-Each candidate must include:
+Each applicant must include:
 
-  -Unique ID
-  -Last name
-  -First name
-  -Position sought
-  -Application date
-  -Status
-  -HR notes
-
+- Unique ID
+- Last name
+- First name
+- Position sought
+- Application date
+- Status
+- HR notes
 
 project started on February 14, 2026
