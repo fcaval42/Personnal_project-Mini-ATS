@@ -32,7 +32,7 @@ Each candidate must include:
   -Position sought
   -Application date
   -Status
-  - HR notes
+  -HR notes
 
 Possible statuses:
   -Received
