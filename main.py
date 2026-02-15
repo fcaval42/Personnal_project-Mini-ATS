@@ -7,6 +7,7 @@
 
 import models
 import manager
+import storage
 
 def main():
     print("\n ======== MINI ATS - 42 EDITION =========\n")
@@ -19,14 +20,19 @@ def main():
     print("6. Filtrer par statut")
     print("7. Quitter")
 
+    liste_candidats = []
+
     choix = input("\n Choix: ")
 
     if choix == "1":
         print("\n choix: 1")
-        manager.ajouter_candidat()
+        nouveau = manager.ajouter_candidat()
+        liste_candidats.append(nouveau)
+        storage.sauvegarder_candidat(nouveau)
 
     elif choix == "2":
         print("\n choix 2")
+        manager.modifier_candidat()
 
     elif choix == "3":
         print("\n choix 3")

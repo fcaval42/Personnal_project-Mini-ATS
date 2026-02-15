@@ -1,0 +1,20 @@
+[
+    {
+        "nom": "CAVAL",
+        "prenom": "Fleur ",
+        "poste": "Dev",
+        "date": "2025-07-09"
+    },
+    {
+        "nom": "FERRER",
+        "prenom": "Matteo",
+        "poste": "Logisticien",
+        "date": "2025-09-20"
+    },
+    {
+        "nom": "PU",
+        "prenom": "D'inspi",
+        "poste": "Lol",
+        "date": "2020-07-16"
+    }
+]
