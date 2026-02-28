@@ -17,12 +17,10 @@ def sauvegarder_candidat(nouveau_candidat, filename="data.json"):
             try:
                 liste_candidats = json.load(f)
             except json.JSONDecodeError:
-                # Si le fichier est vide ou corrompu, on repart d'une liste vide
                 liste_candidats = []
 
     liste_candidats.append(nouveau_candidat.transformer_en_dico())
 
-    # On réécrit le fichier avec la liste complète mise à jour
     try:
         with open("data.json", "w", encoding="utf-8") as f:
             json.dump(liste_candidats, f, indent=4, ensure_ascii=False)

@@ -9,7 +9,7 @@ from models import Candidat
 import json
 import os
 
-def ajouter_candidat():
+def ajouter_candidat() -> Candidat:
     try:
         print()
         nom_saisi = input("Nom: ")
@@ -23,7 +23,6 @@ def ajouter_candidat():
 
     except ValueError as e:
         print(f"Erreur: {e}")
-
 
 def modifier_candidat():
     if not os.path.exists("data.json"):
